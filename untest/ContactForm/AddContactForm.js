@@ -54,9 +54,7 @@ module.exports = {
 
             //MULTISELECTS
 
-            .execute(function () {
-                document.querySelector('#multiselect-27').scrollIntoView();
-            }, [])
+            .execute('scrollTo(0,3000)')
 
             //BRODOVI
             .waitForElementVisible('#multiselect-27')

@@ -41,9 +41,7 @@ module.exports = {
             .setValue('#booking\\[endDate\\]','11192021')
 
             //SPREMI
-            .execute(function () {
-            document.querySelector('#application > .btn').scrollIntoView();
-            }, [])
+            .execute('scrollTo(0,3000)')
 
             .waitForElementVisible('#application > .btn')
             .click("#application > .btn")

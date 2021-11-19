@@ -40,9 +40,7 @@ module.exports = {
             .setValue('#location_county', 'Istarska')
 
             //SPREMI
-            .execute(function () {
-                document.querySelector('button.btn.btn-primary').scrollIntoView();
-            }, [])
+            .execute('scrollTo(0,3000)')
 
             .waitForElementVisible('button.btn.btn-primary')
             .click("button.btn.btn-primary")

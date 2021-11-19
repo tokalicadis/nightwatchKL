@@ -60,9 +60,7 @@ module.exports = {
 
 
             //SPREMI
-            .execute(function () {
-                document.querySelector('button.btn.btn-primary').scrollIntoView();
-            }, [])
+            .execute('scrollTo(0,3000)')
 
             .waitForElementVisible('button.btn.btn-primary')
             .click(".btn:nth-child(5)")

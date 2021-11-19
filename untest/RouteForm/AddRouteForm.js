@@ -21,6 +21,9 @@ module.exports = {
             .setValue("//*[@id ='password']/div[1]/div / div[1]/input", 'chillstone54')
             .click("//*[@id ='passwordNext']")
 
+
+            .execute('scrollTo(0,3000)')
+
             //RUTA, NAVIGACIJA
             .useCss() // we're back to CSS now
             .waitForElementVisible("#DatabaseDropdown")
