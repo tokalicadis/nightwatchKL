@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="1">
+
+  <testsuite name="CS1"
+    errors="0" failures="1" hostname="" id="" package="CS1" skipped="0"
+    tests="1" time="19.53" timestamp="">
+  
+    <testcase name="Demo test kl-test" classname="CS1" time="19.53" assertions="2">
+
+      <failure message="Timed out while waiting for element &lt;//*[@id =&#39;identifierId&#39;]&gt; to be present for 5000 milliseconds. - expected &#34;visible&#34; but got: &#34;not found&#34; (16780ms)">    at Object.Demo test kl-test (C:\Users\Korisnik\IdeaProjects\nightwatchKL\tests\CS1.js:12:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

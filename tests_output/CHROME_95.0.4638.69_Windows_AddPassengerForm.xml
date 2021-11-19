@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="AddPassengerForm"
+    errors="0" failures="0" hostname="" id="" package="AddPassengerForm" skipped="0"
+    tests="1" time="15.17" timestamp="">
+  
+    <testcase name="Demo test kl-test" classname="AddPassengerForm" time="15.17" assertions="9">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

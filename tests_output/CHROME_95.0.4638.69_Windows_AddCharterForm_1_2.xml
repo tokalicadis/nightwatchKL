@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="AddCharterForm_1_2"
+    errors="0" failures="0" hostname="" id="" package="AddCharterForm_1_2" skipped="0"
+    tests="1" time="22.79" timestamp="">
+  
+    <testcase name="Demo test kl-test" classname="AddCharterForm_1_2" time="22.79" assertions="15">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="CharterMixForm.AddCharterForm_1"
+    errors="0" failures="0" hostname="" id="" package="CharterMixForm" skipped="0"
+    tests="1" time="21.76" timestamp="">
+  
+    <testcase name="Demo test kl-test" classname="CharterMixForm.AddCharterForm_1" time="21.76" assertions="14">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

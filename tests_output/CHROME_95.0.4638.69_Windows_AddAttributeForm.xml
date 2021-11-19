@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="AddAttributeForm"
+    errors="0" failures="0" hostname="" id="" package="AddAttributeForm" skipped="0"
+    tests="1" time="17.18" timestamp="">
+  
+    <testcase name="Demo test kl-test" classname="AddAttributeForm" time="17.18" assertions="11">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>

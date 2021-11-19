@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="0"
+            tests="1">
+
+  <testsuite name="AddMixForm.AddMixForm"
+    errors="0" failures="0" hostname="" id="" package="AddMixForm" skipped="0"
+    tests="1" time="24.60" timestamp="">
+  
+    <testcase name="Demo test kl-test" classname="AddMixForm.AddMixForm" time="24.60" assertions="8">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
