@@ -1,4 +1,4 @@
-//IZBRIŠI KLIJENTA
+//IZBRIŠI ŽUPANIJU
 
 
 module.exports = {
@@ -22,13 +22,13 @@ module.exports = {
             .setValue("//*[@id ='password']/div[1]/div / div[1]/input", 'chillstone54')
             .click("//*[@id ='passwordNext']")
 
-            //KLIJENT NAVIGACIJA
+            //ŽUPANIJE NAVIGACIJA
             .useCss() // we're back to CSS now
             .waitForElementVisible("#DatabaseDropdown")
             .click("#DatabaseDropdown")
             .click('link text', 'Županije')
 
-            ///BRIŠI KLIJENTA
+            //BRIŠI ŽUPANIJE
             .click('#dataTables-example tr:nth-child(1) > td:nth-child(1)')
             .waitForElementVisible(".btn-danger")
             .click('.btn-danger')
