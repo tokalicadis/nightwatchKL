@@ -1,4 +1,4 @@
-//DODAJ NOVU AGENCIJU
+//UREDI POSOTJEĆU AGENCIJU
 
 
 module.exports = {
@@ -32,7 +32,7 @@ module.exports = {
             .click('link text', 'Uredi')
 
 
-            ///DODAJ AGENCIJU FORMA
+            ///UREDI AGENCIJU FORMA
 
 
             //NAZIV
