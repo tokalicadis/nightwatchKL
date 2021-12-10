@@ -37,14 +37,17 @@ module.exports = {
 
             //NAZIV
             .waitForElementVisible("#bed_type_title")
+            .clearValue("#bed_type_title")
             .setValue('#bed_type_title', 'Ležaj NW')
 
             //KRATKI NAZIV
             .waitForElementVisible("#bed_type_shortTitle")
+            .clearValue("#bed_type_shortTitle")
             .setValue('#bed_type_shortTitle', 'LNW')
 
             //KAPACITET
             .waitForElementVisible("#bed_type_capacity")
+            .clearValue("#bed_type_capacity")
             .setValue('#bed_type_capacity', '2')
 
             //SPREMI
