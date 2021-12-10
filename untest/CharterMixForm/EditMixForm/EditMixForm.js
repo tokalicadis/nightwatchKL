@@ -40,14 +40,17 @@ module.exports = {
 
             //VRSTA BOOKINGA
             .waitForElementVisible("#booking\\[type\\]")
+            .clearValue("#booking\\[type\\]")
             .setValue('#booking\\[type\\]', 'Mix')
 
             //KATEGORIJA BRODA
             .waitForElementVisible('#booking\\[shipCategory\\]')
+            .clearValue('#booking\\[shipCategory\\]')
             .setValue('#booking\\[shipCategory\\]', 'Deluxe')
 
             //DATUM ZAVRSETKA
             .waitForElementVisible('#booking\\[endDate\\]')
+            .clearValue('#booking\\[endDate\\]')
             .setValue('#booking\\[endDate\\]','11192022')
 
             //SPREMI

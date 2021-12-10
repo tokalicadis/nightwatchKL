@@ -41,28 +41,34 @@ module.exports = {
 
             //VRSTA BOOKINGA
             .waitForElementVisible("#booking\\[type\\]")
+            .clearValue("#booking\\[type\\]")
             .setValue('#booking\\[type\\]', 'Charter')
 
             //RUTA
             .waitForElementVisible("#booking\\[route\\]")
+            .clearValue("#booking\\[route\\]")
             .setValue('#booking\\[route\\]', 'Adriatic Explorer One Way from Dubrovnik')
 
 
             //DATUM POLASKA
             .waitForElementVisible('#booking\\[startDate\\]')
+            .clearValue('#booking\\[startDate\\]')
             .setValue('#booking\\[startDate\\]','11122022')
 
             //DATUM ZAVRSETKA
             .waitForElementVisible('#booking\\[endDate\\]')
+            .clearValue('#booking\\[endDate\\]')
             .setValue('#booking\\[endDate\\]','11192022')
 
 
             //KLIJENT
             .waitForElementVisible('#booking\\[client\\]')
+            .clearValue('#booking\\[client\\]')
             .setValue('#booking\\[client\\]', 'Rachel Bowers')
 
             //AGENCIJA
             .waitForElementVisible('.multiselect-search')
+            .clearValue('.multiselect-search')
             .click('.multiselect-search')
             .keys(['\uE015', '\uE006'])
 
@@ -71,18 +77,22 @@ module.exports = {
 
             //KATEGORIJA BRODA
             .waitForElementVisible('#booking\\[shipCategory\\]')
+            .clearValue('#booking\\[shipCategory\\]')
             .setValue('#booking\\[shipCategory\\]', 'Deluxe')
 
             //BROD
             .waitForElementVisible('#booking\\[ship\\]')
+            .clearValue('#booking\\[ship\\]')
             .setValue('#booking\\[shipCategory\\]', 'Admiral')
 
             //STATUS
             .waitForElementVisible('#booking\\[status\\]')
+            .clearValue('#booking\\[status\\]')
             .setValue('#booking\\[status\\]', 'Potvrđeno')
 
             //KOMERCIJALIST
             .waitForElementVisible('#booking\\[assignee\\]')
+            .clearValue('#booking\\[assignee\\]')
             .setValue('#booking\\[assignee\\]', 'Adis Tokalić')
 
 
