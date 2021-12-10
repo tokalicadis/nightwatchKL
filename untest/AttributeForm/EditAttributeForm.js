@@ -36,22 +36,27 @@ module.exports = {
 
             //NAZIV
             .waitForElementVisible("#attribute_title")
+            .clearValue("#attribute_title")
             .setValue('#attribute_title', 'Atribut NW')
 
             //VRSTA UNOSA
             .waitForElementVisible("#attribute_type")
+            .clearValue("#attribute_type")
             .setValue('#attribute_type', 'Tekst')
 
             //KATEGORIJA
             .waitForElementVisible("#attribute_category")
+            .clearValue("#attribute_category")
             .setValue('#attribute_category', 'General')
 
             //ZADANA VRIJEDNOST
             .waitForElementVisible("#attribute_defaultValue")
+            .clearValue("#attribute_defaultValue")
             .setValue('#attribute_defaultValue', 'Zadana NW')
 
             //ODNOSI SE NA
             .waitForElementVisible("#attribute_linkedEntityType")
+            .clearValue("#attribute_linkedEntityType")
             .setValue('#attribute_linkedEntityType', 'Kabina')
 
             //ISTAKNUTO
