@@ -1,4 +1,4 @@
-//IZBRIŠI ŽUPANIJUs
+//IZBRIŠI ŽUPANIJU
 
 
 module.exports = {
