@@ -37,57 +37,70 @@ module.exports = {
 
             //NAZIV
             .waitForElementVisible("#agency_title")
+            .clearValue("#agency_title")
             .setValue('#agency_title', 'Agencija NW.JS')
 
             //KRATKI NAZIV
             .waitForElementVisible("#agency_shortTitle")
+            .clearValue("#agency_shortTitle")
             .setValue('#agency_shortTitle', 'ANW')
 
             //VRSTA
             .waitForElementVisible("#agency_type")
+            .clearValue("#agency_type")
             .setValue('#agency_type', 'Domaća Agencija')
 
             //FAKTURIRANJE
             .waitForElementVisible('#agency_billing')
+            .clearValue('#agency_billing')
             .setValue('#agency_billing','Agenciji')
 
 
             //JEZIK FAKTURE
             .waitForElementVisible('#agency_billingLanguage')
+            .clearValue('#agency_billingLanguage')
             .setValue('#agency_billingLanguage', 'abhaski')
 
             //DRŽAVA
             .waitForElementVisible('#agency_country')
+            .clearValue('#agency_country')
             .setValue('#agency_country', 'Albanija')
 
 
             //ADRESA
             .waitForElementVisible('#agency_address')
+            .clearValue('#agency_address')
             .setValue('#agency_address', 'Adresa NW')
 
             //INTERNET STRANICA
             .waitForElementVisible('#agency_website')
+            .clearValue('#agency_website')
             .setValue('#agency_website', 'Web Stranica NW')
 
 
             //VLASNIK
             .waitForElementVisible('#agency_owner')
+            .clearValue('#agency_owner')
             .setValue('#agency_owner', 'Vlasnik NW')
 
             //VAT/OIB
             .waitForElementVisible('#agency_vat')
+            .clearValue('#agency_vat')
             .setValue('#agency_vat', 'OIB ili VAT NW')
 
             //BROJ RAČUNA
             .waitForElementVisible('#agency_accountNumber')
+            .clearValue('#agency_accountNumber')
             .setValue('#agency_accountNumber', 'Broj računa NW')
 
             //BANKA
             .waitForElementVisible('#agency_bank')
+            .clearValue('#agency_bank')
             .setValue('#agency_bank', 'Banka NW')
 
             //BILJEŠKA
             .waitForElementVisible('#agency_note')
+            .clearValue('#agency_note')
             .setValue('#agency_note', 'Bilješke NW')
 
             //SPREMI
