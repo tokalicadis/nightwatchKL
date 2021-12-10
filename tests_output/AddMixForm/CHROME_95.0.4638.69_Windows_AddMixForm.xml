@@ -7,7 +7,7 @@
     errors="0" failures="0" hostname="" id="" package="AddMixForm" skipped="0"
     tests="1" time="21.37" timestamp="">
   
-    <testcase name="Demo test kl-test" classname="AddMixForm.AddMixForm" time="21.37" assertions="8">
+    <testcase name="Demo test kl-test2" classname="AddMixForm.AddMixForm" time="21.37" assertions="8">
 
     
 
